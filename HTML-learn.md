@@ -55,15 +55,15 @@ Hyper Text Markup Language
 ## 块级元素 
 ```<div>......</div>```
 ## 表格
-```<table>```
-```<tr>```
-```<th>......</th>```  *表头字体自动加粗*
-```<td>......</td>```
-```</tr>```
+```<table>```</br>
+```<tr>```</br>
+```<th>......</th>```  *表头字体自动加粗*</br>
+```<td>......</td>```</br>
+```</tr>```</br>
 ```</table>```
 ## 表单
 ```<label>......</label>```  *标签*</br>
-```<input type="text" name="username" maxlength="30"/>```</br>  
+```<input type="text" name="username" maxlength="30"/>```</br>
 *单行输入框  信息输入点（可写可不写）  最大字符输入量（默认20字符）*</br>
 ```<input type="password" name="password" maxlength="30"/>```  *密码框*</br>
 ```<textarea name="......" cols="......" rows="......">......</textarea>```</br>
