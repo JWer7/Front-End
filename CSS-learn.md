@@ -17,3 +17,5 @@ color:red ▏color:rgb(225,10,10) 参数值可用数字也可用百分值 ▏col
 ```<p style="font-style:italic">......</p>```
 ## Text-decoration —— 横线
 ```<p style="font-decoration:underline">下划线</p>```
+```<p style="font-decoration:overline">顶部实线</p>```
+```<p style="font-decoration:line-through">删除线</p>```
