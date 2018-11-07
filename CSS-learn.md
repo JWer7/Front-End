@@ -14,4 +14,6 @@ color:red ▏color:rgb(225,10,10) 参数值可用数字也可用百分值 ▏col
 *表示方式：数字或名称*</br>
 数字从100到900由细至粗，**400=Normal**，**700=Bold**
 ## Font-style:italic —— 斜体
-```
+```<p style="font-style:italic">......</p>```
+## Text-decoration —— 横线
+```<p style="font-decoration:underline">下划线</p>```
