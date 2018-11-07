@@ -9,3 +9,7 @@ Cascading Style Sheets 层叠样式表 — 表现Html文件样式
 ```<p style="color:......">......</p>```</br>
 *表示方式：RGB、16进制编码、颜色名称*</br>
 color:red ▏color:rgb(225,10,10) 参数值可用数字也可用百分值 ▏color:63B1DC
+## Font-weight —— 字体粗细
+```<p style="font-weight:......">......</p>```</br>
+*表示方式：数字或名称*</br>
+数字从100到900由细至粗，**400=Normal**，**700=Bold**
