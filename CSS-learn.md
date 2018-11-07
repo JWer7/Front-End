@@ -29,3 +29,13 @@ color:red ▏color:rgb(225,10,10) 参数值可用数字也可用百分值 ▏col
 ## Letter-spacing —— 字母间距
 ```<p style="letter-spacing:......">......</p>```
 ## Text-align —— 对齐
+```<p style="text-align:......">......</p>```</br>
+</br>
+*left/right/center/justify-两端对齐*
+## Text-indent —— 文本缩进
+```<p style="text-indent:......">......</p>```
+## Text-shadow —— 投影
+```<p style="text-shadow:5px 5px 5px #FF6600">......</p>```</br>
+</br>
+*水平阴影、垂直阴影、模糊距离、阴影颜色-其他表达方式亦可*
+## 链接样式
