@@ -13,3 +13,5 @@ color:red ▏color:rgb(225,10,10) 参数值可用数字也可用百分值 ▏col
 ```<p style="font-weight:......">......</p>```</br>
 *表示方式：数字或名称*</br>
 数字从100到900由细至粗，**400=Normal**，**700=Bold**
+## Font-style:italic —— 斜体
+```
