@@ -40,5 +40,25 @@ color:red ▏color:rgb(225,10,10) 参数值可用数字也可用百分值 ▏col
 *水平阴影、垂直阴影、模糊距离、阴影颜色-其他表达方式亦可*
 ## 链接样式
 *默认情况下，浏览器常用蓝色显示链接并附带下划线*
-```<style></br>
-a:link{
+### 伪类：基于元素状态
+```<style>```</br>
+```a:link{color:red}```</br>
+```a:hover{```</br>
+```color:cyan;```</br>
+```text-decoration:underline;}```</br>
+```a:active{color:pink}```</br>
+```a:visited{color:grey}```</br>
+```</style>```</br>
+```<a href="www.baidu.com">百度</a>```</br>
+</br>
+*未访问过的链接的显示样式*</br>
+*鼠标在链接上徘徊但是并未点击的状态*</br>
+*链接呗点击后的状态*</br>
+*已经点击且浏览过了的链接样式*</br>
+## Class —— 类选择器
+以点号表示，即英文标点符号的句号。在<style>内定义</br>
+```<style>```</br>
+```.center```</br>
+```</style>```</br>
+</br>
+*类选择器可任意命名，但不可以数字开头*
