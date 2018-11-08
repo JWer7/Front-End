@@ -55,7 +55,7 @@ color:red ▏color:rgb(225,10,10) 参数值可用数字也可用百分值 ▏col
 *链接呗点击后的状态*</br>
 *已经点击且浏览过了的链接样式*</br>
 ## Class —— 类选择器
-以点号表示，即英文标点符号的句号。在<style>内定义</br>
+以点号表示，即英文标点符号的句号。**在<style>内定义**</br>
 ```<style>```</br>
 ```.center{```</br>
 ```text-align:center;```</br>
@@ -97,5 +97,24 @@ overflow:scroll —— 卷轴，即上下左右拉条</br>
 </br>
 ### Border —— 边框
 border-width —— 边框宽度</br>
-border-style —— 边框样式|||solid-实线</br>
+border-style —— 边框样式|||solid-实线||dotted-一串方形点||dashed-虚线||double-两条实线</br>
 border-color —— 边框颜色</br>
+*快捷方式*</br>
+border:3px solid blue
+## Padding —— 内边距
+内容与边框的距离</br>
+padding-top —— 上方内边距；padding-bottom —— 下方内边距</br>
+padding-right —— 右边内边距；padding-left —— 左边内边距</br>
+*快捷方式*</br>
+padding:10px 5px 3px 1px  上右下左
+## Margin —— 外边距
+盒子之间的空隙</br>
+表达方式与内边距类似</br>
+*快捷方式*</br>
+margin:25px 50px 75px 100px  上右下左</br>
+margin:25px 50px 75px 上/左右/下</br>
+margin:25px 50px 上下/左右</br>
+margin:25px 上下左右等值</br>
+## Background-color —— 背景颜色
+## Background-image —— 背景图片
+```background-img:url('')```
