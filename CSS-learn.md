@@ -78,3 +78,24 @@ color:red ▏color:rgb(225,10,10) 参数值可用数字也可用百分值 ▏col
 ```</style>```</br>
 ```<p class="类选择器名">.....</p>```</br>
 ## Div —— CSS盒子模型
+```<style>```</br>
+```.simple{```</br>
+```height:300px;```</br>
+```width:400px;```</br>
+```border:1px solid black;}```</br>
+```</style>```</br>
+```<body>```</br>
+```<div class="simple">我是一个盒子</div>```</br>
+```</body>```</br>
+</br>
+### Width —— 宽度
+为了保证不同设备不同屏幕的适配性，可以设定一个**最小宽度min-width**，一个**最大宽度max-width**</br>
+</br>
+### Overflow —— 内容溢出
+overflow:hidden —— 超出盒子部分直接隐藏</br>
+overflow:scroll —— 卷轴，即上下左右拉条</br>
+</br>
+### Border —— 边框
+border-width —— 边框宽度</br>
+border-style —— 边框样式|||solid-实线</br>
+border-color —— 边框颜色</br>
