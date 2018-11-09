@@ -118,3 +118,34 @@ margin:25px 上下左右等值</br>
 ## Background-color —— 背景颜色
 ## Background-image —— 背景图片
 ```background-img:url('')```
+## Block element & Inline element —— 块级元素和内联元素
+### 块级元素
+宽高都可以设置</br>
+默认独占一行</br>
+常用的<div>\<p>等都是块级元素</br>
+### 内联元素
+宽高不可以设置</br>
+无需独占一行<br>
+### Display —— 转换块级元素和内联元素
+比如使用<ul>制作一个导航栏，但<li>为块级元素，需要独占一行，这时可以转换元素类型</br>
+块级元素→内联元素 —— display:inline</br>
+```<style>```</br>
+```li{display:inline;```</br>
+```margin:10px;}```</br>
+```</style>```</br>
+```<ul>```</br>
+```<li>......</li>```</br>
+```<li>......</li>```</br>
+```<li>......</li>```</br>
+```</ul>```</br>
+</br>
+内联元素→块级元素 —— display:block<br>
+### Visibility —— 盒子可见性
+visibility:hidden —— 隐藏但保留元素占用空间；visibility:visible —— 可见</br>
+```<style>```</br>
+```li.coming-soon{visibility:hidden;}```</br>
+```</style>```</br>
+```<ul>```</br>
+```<li>......</li>```</br>
+```<li class="comng-soon">......</li>```</br>
+```</ul>```
