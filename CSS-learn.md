@@ -141,7 +141,8 @@ margin:25px 上下左右等值</br>
 </br>
 内联元素→块级元素 —— display:block<br>
 ### Visibility —— 盒子可见性
-visibility:hidden —— 隐藏但保留元素占用空间；visibility:visible —— 可见</br>
+visibility:hidden —— 隐藏但保留元素占用空间，即原有位置处空白显示，可使用display:none完全隐藏</br>
+visibility:visible —— 可见</br>
 ```<style>```</br>
 ```li.coming-soon{visibility:hidden;}```</br>
 ```</style>```</br>
@@ -149,3 +150,9 @@ visibility:hidden —— 隐藏但保留元素占用空间；visibility:visible 
 ```<li>......</li>```</br>
 ```<li class="comng-soon">......</li>```</br>
 ```</ul>```
+## Box-shadow —— 盒子投影
+box-shadow:5px 5px 5px 5px #777777</br>
+</br>
+水平偏移、垂直偏移、模糊距离、阴影延展、颜色
+## Border-radius —— 盒子边缘样式
+border-top-right-radius —— 右上角
