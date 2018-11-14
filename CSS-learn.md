@@ -155,4 +155,29 @@ box-shadow:5px 5px 5px 5px #777777</br>
 </br>
 水平偏移、垂直偏移、模糊距离、阴影延展、颜色
 ## Border-radius —— 盒子边缘样式
-border-top-right-radius —— 右上角
+border-top-right-radius —— 右上角（其他同理）
+radius —— 半径 —— 数值越大，圆角程度越大 —— 如为两个数字，则代表圆角横向值和圆角纵向值</br>
+*快捷方式*</br>
+border-radius:左上 右上 右下 左下
+## List-style-type —— 项目符号
+<li>元素的符号</br>
+### UL —— 无序
+circle —— 空心圆圈</br>
+square —— 实心方块</br>
+### OL —— 有序
+decimal —— 阿拉伯数字</br>
+lower-alpha —— 小写英文字母</br>
+upper-alpha —— 大写英文字母</br>
+lower-roman —— 小写罗马数字</br>
+upper-roman —— 大写罗马数字</br>
+### List-style-image —— 选择自己喜欢的图像
+```list-style-image:url("")```
+### List-style-position —— 定位
+标记默认位于左侧</br>
+list-style-position:outside —— 标记位于文本块左侧</br>
+list-style-position:inside —— 标记位于文本块内部同时文本缩进</br>
+*快捷方式*</br>
+```list-style:位置 项目符号样式```</br>
+## Table —— 表格装饰
+width —— 表格宽度</br>
+padding —— 每个单元格边框与内容间的距离</br>
