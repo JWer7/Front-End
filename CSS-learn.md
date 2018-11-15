@@ -155,12 +155,12 @@ box-shadow:5px 5px 5px 5px #777777</br>
 </br>
 水平偏移、垂直偏移、模糊距离、阴影延展、颜色
 ## Border-radius —— 盒子边缘样式
-border-top-right-radius —— 右上角（其他同理）
+border-top-right-radius —— 右上角（其他同理）</br>
 radius —— 半径 —— 数值越大，圆角程度越大 —— 如为两个数字，则代表圆角横向值和圆角纵向值</br>
 *快捷方式*</br>
 border-radius:左上 右上 右下 左下
 ## List-style-type —— 项目符号
-<li>元素的符号</br>
+*li*元素的符号</br>
 ### UL —— 无序
 circle —— 空心圆圈</br>
 square —— 实心方块</br>
@@ -178,6 +178,24 @@ list-style-position:outside —— 标记位于文本块左侧</br>
 list-style-position:inside —— 标记位于文本块内部同时文本缩进</br>
 *快捷方式*</br>
 ```list-style:位置 项目符号样式```</br>
-## Table —— 表格装饰
+## Table —— 表格样式
 width —— 表格宽度</br>
 padding —— 每个单元格边框与内容间的距离</br>
+text-align —— 对齐方式</br>
+background-color —— 表格背景颜色</br>
+:hover —— 光标悬停在某一行时将该行强调显示</br>
+text-transform —— 表格标题中的内容转为大写</br>
+border:数值 样式 颜色 —— 单元格的边框</br>
+border-spacing:单元格间的横向距离 单元格间的纵向距离</br>
+border-collapse:collapse —— 相邻边框合并</br>
+border-collapse:separate —— 相邻边框分离</br>
+### Empty-cells —— 空单元格
+empty-cells:hide —— 隐藏空单元格的边框</br>
+empty-cells:show —— 显示空单元格的边框</br>
+## Input —— 单行文本框样式
+:focus —— 用户使用文本框时改变颜色</br>
+其他属性类似</br>
+## Botton —— 按钮样式
+color —— 按钮上文本的颜色</br>
+text-shadow —— 在支持该属性的浏览器中展示3D效果的文本</br>
+background-color —— 按钮的背景颜色</br>
