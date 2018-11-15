@@ -213,3 +213,24 @@ help —— 带问号的箭头</br>
 ## 标签选择器
 ```p{color:blue}```</br>
 大部分html的元素都可以是标签选择器</br>
+## Opacity —— 图像透明度
+0.0 ~ 1.0 —— 值越小，越透明 —— img{}
+## Float —— 浮动
+```<style>```</br>
+```div{width:100px;```</br>
+```height:100px;```</br>
+```text-align;}```</br>
+```<!--id为1的选择器右浮，至包含块的边缘-->```</br>
+```#first{float:right;}```</br>
+```</style>```</br>
+```<div id="first" style="background:blue"></div>```</br>
+```<div id="second" style="background:red"></div>```</br>
+```<div id="third" style="background:yellow"></div>```</br>
+</br>
+当一个元素浮动时，浏览器会把该元素原来占的位置的高度视为0，后面的元素会占据该元素原来的位置以及产生元素重叠；但若同为浮动块，则不会重叠而是碰到即止</br>
+## Background-image —— 背景图像
+当背景图较小，不能填充整个页面时，浏览器会自动重复图片以充满</br>
+background-repeat:no-repeat/repeat-x/repeat-y —— 不重复图片/在水平方向上平铺/在竖直方向上平铺</br>
+background-position:top/bottom/left/right/center —— 位置，可以写两个定位关键词</br>
+每个元素都可以设置背景图</br>
+
