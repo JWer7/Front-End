@@ -199,3 +199,17 @@ empty-cells:show —— 显示空单元格的边框</br>
 color —— 按钮上文本的颜色</br>
 text-shadow —— 在支持该属性的浏览器中展示3D效果的文本</br>
 background-color —— 按钮的背景颜色</br>
+## Cursor —— 光标样式
+default —— 箭头（常见）</br>
+auto —— I形</br>
+crosshair —— 十字</br>
+pointer —— 手状</br>
+wait —— 加载圆圈</br>
+help —— 带问号的箭头</br>
+## ID选择器
+以井号#为选择符号。id名具有唯一性，不能相同
+## * —— 通配符
+```*_{margin:0;padding:0;}```去掉浏览器的默认边距</br>
+## 标签选择器
+```p{color:blue}```</br>
+大部分html的元素都可以是标签选择器</br>
