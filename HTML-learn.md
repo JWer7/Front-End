@@ -12,7 +12,10 @@ Hyper Text Markup Language
 ## 保证文件显示
 放在Head标签中，且始终处于其他标签上方</br>
 ```<meta charset="utf-8">```</br>
-```<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit="no">```
+```<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit="no">```</br>
+</br>
+About Meta</br>
+http://caibaojian.com/mobile-meta.html
 ## Heading — 标题   
 ```<h1>......</h1>```  *字号随数字增大而减小*
 ## Paragraph — 段落
