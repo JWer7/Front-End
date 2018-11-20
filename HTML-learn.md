@@ -74,7 +74,8 @@ http://caibaojian.com/mobile-meta.html
 *单行输入框  信息输入点（可写可不写）  最大字符输入量（默认20字符）*</br>
 ```<input type="password" name="password" maxlength="30"/>```  *密码框*</br>
 ```<textarea name="......" cols="......" rows="......">......</textarea>```</br>
-*文本域/多行文本框  宽度  高度（纵向上占据的行数）*
+*文本域/多行文本框  宽度  高度（纵向上占据的行数）*</br>
+required —— 必填项
 ## 下拉列表框
 ```<select name="......">``` *控件名称*</br>
 ```<option value="......" selected="selected">......</option>```  *选项的值*</br>
