@@ -1,6 +1,8 @@
 # Introduction 
 Cascading Style Sheets 层叠样式表 — 表现Html文件样式
 ***
+## 关于速记标示/简写
+https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties</br>
 ## Font-size — 字体大小
 ```<p style="font-size:......">......</p>```</br>
 </br>
