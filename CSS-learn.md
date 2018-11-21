@@ -9,6 +9,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties</br>
 ```<style>```</br>
 ```@import url(xxxxxx.css);```</br>
 ```</style>```</br>
+但我们通常使用</br>
+```<link rel="stylesheet" href="xxxxxx.css">```</br>
 ## Font-size — 字体大小
 ```<p style="font-size:......">......</p>```</br>
 </br>
