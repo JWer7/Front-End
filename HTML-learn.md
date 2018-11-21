@@ -1,7 +1,8 @@
 # Websites
 * https://www.w3schools.com/</br>
 * https://www.coding61.com</br>
-* http://www.runoob.com/
+* http://www.runoob.com/</br>
+* https://frontendwiz.co.uk/
 ***
 # Introduction
 Hyper Text Markup Language
